@@ -1,1 +1,1 @@
-# assignment-management-system
+# assignments-management-system
