@@ -13,7 +13,7 @@ const Login = () => {
         e.preventDefault();
 
         if (login(username, password)) {
-            navigate('/');
+            navigate('/dashboard');  // Redirect to dashboard
         } else {
             setError('Invalid username or password');
         }
