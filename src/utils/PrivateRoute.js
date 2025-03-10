@@ -6,8 +6,12 @@ const PrivateRoute = ({ role }) => {
     const isAuth = isAuthenticated();
     const userRole = getRole();
 
-    if (!isAuth){
-        return <Navigate to="/login" />
+    if (!isAuth) {
+        return <Navigate to="/login" />;
+    }
+
+    if (role && userRole !== role) {
+        return <Navigate to="/unauthorized" />;
     }
 
     return <Outlet />;
