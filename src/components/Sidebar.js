@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaUserCog, FaUserGraduate, FaSignOutAlt, FaHome } from 'react-icons/fa'; 
-import { logout } from '../utils/auth';
+import { logout } from '../utils/auth';  // Ensure logout function exists
 
 const Sidebar = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
     logout();
-    navigate('/login');
+    navigate('/login');  // Redirect after logout
   };
 
   return (
