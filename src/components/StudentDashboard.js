@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaChalkboardTeacher, FaList } from 'react-icons/fa';
+import "../styles/StudentDashboard.css";
 
 
 const StudentDashboard = () => {
