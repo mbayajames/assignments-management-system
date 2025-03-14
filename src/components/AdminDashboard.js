@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaChalkboardTeacher, FaPlus, FaList } from 'react-icons/fa';
-
+import "../styles/AdminDashboard.css";
 
 const AdminDashboard = () => {
   const [assignments, setAssignments] = useState([]);
