@@ -1,0 +1,36 @@
+.student-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .assignment-list {
+    margin-top: 20px;
+  }
+  
+  .assignment-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignment-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .no-assignments {
+    color: #888;
+    font-style: italic;
+  }
